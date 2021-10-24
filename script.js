@@ -23,7 +23,7 @@ let quotes = [
 
 //for image at the end of each quote
 var img = document.createElement("img");
-img.src= "/sunflower.png"
+img.src= "sunflower.png"
 //var src= document.getElementById('quote');
 //src.appendChild(img);
 
