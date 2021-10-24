@@ -182,25 +182,30 @@ input:checked + .slider:before {
 /*End theme Switch */
 
 @media screen and (max-width: 510px) {
+  body{
+    font-size: 19px;
+  }
   .welcome{
     margin-top: 20px;
+    font-size: 17px;
   }
   img{
-    width: 30px;
+    width: 20px;
   }
   .container{
     width: 90vw;
+    height: 85vh;
   }
   #quoteDisplay{
-    height: 40vh;
+    height: 25vh;
     width: 80%;
   }
   .quoteGenerator{
     padding: 0px;
     height: 10vh;
-    margin-top: -50px;
+    margin-top: 80px;
   }
   .twitter-share-button{
-    margin-top: -15px;
+    margin-top: 5px;
   }
 }
