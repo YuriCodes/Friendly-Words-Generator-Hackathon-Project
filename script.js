@@ -26,7 +26,6 @@ let quotes = [
 function newQuote(){
     let randNum = Math.floor(Math.random() * (quotes.length))
     display.innerHTML = quotes[randNum] 
-
 }
 
 
