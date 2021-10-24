@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="./shesharp-x-troopl.svg">    
+<title>Friendly words for u!</title>
+</head>
+
+<body onload="startTime(); startDate();">
+    <div class="container"> 
+        <div id="date"></div>
+        <div id="display"></div>
+
+
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+              <input type="checkbox" id="checkbox"/>
+              <div class="slider round"></div>
+            </label>
+        </div> 
+
+        <header class="welcome">
+            <img src="trunk.png"> Welcome, friend! <img src="plant-pot.png"> 
+        </header>
+
+        <div id="quoteDisplay"> 
+            <h4 class="text" id="quote"> 
+                Press the button, there's something you need to read!
+            </h4>
+        </div>
+
+        <section class="quoteGenerator">
+            <button class="new" onclick="newQuote()"> Press me </button>
+        </section>  
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"
+            data-size="large"
+            data-text="Friendly words for you: "
+            data-via="yuricodesbot"></a>
+    </div>
+    <footer> 
+        Made with <img src="love.png" title="love"> by <a href="https://twitter.com/yuricodesbot">YuriCodesBot, </a>
+        <a href="https://github.com/YuriCodes">GitHub</a>
+        <div>
+            Project made as part of the <a href="https://www.shesharp.co/2021-hackathon/">SheSharpNL</a> 2021 Hackathon 
+        </div>
+        <div>
+            Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from 
+            <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
