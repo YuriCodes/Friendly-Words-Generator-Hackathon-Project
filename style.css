@@ -181,20 +181,14 @@ input:checked + .slider:before {
 }
 /*End theme Switch */
 
-@media screen and (max-width: 510px) {
-  body{
-    font-size: 19px;
-  }
+@media screen and (max-width: 600px) {
   .welcome{
     margin-top: 20px;
     font-size: 17px;
   }
-  img{
-    width: 20px;
-  }
   .container{
-    width: 90vw;
-    height: 85vh;
+    width: 90%;
+    height: 90%;
   }
   #quoteDisplay{
     height: 25vh;
