@@ -21,17 +21,12 @@ let quotes = [
     "Congratulations on making it this far! I'm sure it wasn't easy, but i never doubted you!",
 ];
 
-//for image at the end of each quote
-var img = document.createElement("img");
-img.src= "sunflower.png"
-var src= document.getElementById('quote');
-src.appendChild(img);
 
 //for the quotes
 function newQuote(){
     let randNum = Math.floor(Math.random() * (quotes.length))
     display.innerHTML = quotes[randNum] 
-    display.appendChild(img)
+
 }
 
 
