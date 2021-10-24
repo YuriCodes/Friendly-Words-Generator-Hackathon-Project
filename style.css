@@ -35,9 +35,8 @@ body{
 
 .container{
   background-color:var(--background-color-transparent);
-  height: 80vh;
   min-height: 90%;
-  max-width: 60%;
+  max-width: 65%;
   margin: 0 auto;
   box-shadow: var(--box-shadow-transparent);
   border-radius: 30px;
@@ -182,16 +181,23 @@ input:checked + .slider:before {
 /*End theme Switch */
 
 @media screen and (max-width: 600px) {
+  body{
+    overflow: scroll;
+  }
   .welcome{
     margin-top: 20px;
     font-size: 17px;
   }
   .container{
-    width: 90%;
-    height: 90%;
+    height: 85vh;
+    
+  }
+  img{
+    width: 20px;
   }
   #quoteDisplay{
-    height: 25vh;
+    margin-top: -15px;
+    height: 30%;
     width: 80%;
   }
   .quoteGenerator{
